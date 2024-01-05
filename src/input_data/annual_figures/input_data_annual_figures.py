@@ -8,7 +8,7 @@ def show_annual_figures():
     loadpaths['Country'] = Path('./data/demand_supply_country.csv')
     loadpaths['Nodal'] = Path('./data/demand_supply_node.csv')
 
-    show_what = st.selectbox('Select level: ', ['Nodal', 'Country'])
+    show_what = st.selectbox('Select level: ', ['Country', 'Nodal'])
 
     if show_what == 'Country':
         plot_data = pd.read_csv(loadpaths[show_what], index_col=0, header=[0,1]).reset_index().rename(columns={'Country': 'index'})

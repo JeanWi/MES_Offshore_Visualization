@@ -6,7 +6,7 @@ sub_pages = {
     'Show input data': [
         'Installed Capacities',
         'Annual renewable generation and demand',
-        'Node Definition and networks',
+        'Node definition',
         'Renewable generation profiles and demand'
         ]
     }
