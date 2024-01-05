@@ -3,7 +3,7 @@ import altair as alt
 from pathlib import Path
 import pandas as pd
 
-from utilities import determine_graph_boundaries
+from ...utilities import determine_graph_boundaries
 
 def show_profiles(category):
 
