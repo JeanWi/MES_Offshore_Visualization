@@ -1,6 +1,6 @@
 import streamlit as st
 from .installed_capacities import *
-# from .node_definition import *
+from .node_definition import *
 from .profiles import *
 from .annual_figures import *
 
@@ -24,8 +24,8 @@ def show_page_input_data(sub_page):
 
     # Node definitions (map)
     elif sub_page == 'Node Definition and networks':
-        # show_node_definition()
-        pass
+        show_node_definition()
+        # pass
 
     # Renewable Profiles and Demand
     elif sub_page == 'Renewable generation profiles and demand':
