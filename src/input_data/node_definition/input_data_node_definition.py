@@ -2,7 +2,7 @@ import streamlit as st
 import altair as alt
 from pathlib import Path
 import pandas as pd
-# import geopandas as gpd
+import geopandas as gpd
 from streamlit_folium import st_folium
 from folium.features import DivIcon
 import matplotlib.cm as cm
