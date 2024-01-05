@@ -8,7 +8,7 @@ from ...utilities import determine_graph_boundaries
 def show_profiles(category):
 
     climate_year = 2009
-    root_load_path = Path('.data/')
+    root_load_path = Path('./data/')
     loadpaths = {}
     loadpaths['re_profiles'] = Path('production_profiles_re.csv')
     loadpaths['demand'] = Path('TotalDemand_NT_' + str(climate_year) +'.csv')
